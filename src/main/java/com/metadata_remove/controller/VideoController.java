@@ -25,7 +25,7 @@ import java.util.List;
 public class VideoController {
 
     private static final Logger logger = LoggerFactory.getLogger(VideoController.class);
-    private static final String OUTPUT_DIR = "C:\\Users\\esdra\\Desktop\\videos-formatados";
+    private static final String OUTPUT_DIR = "C:\\Users\\esdra\\Videos\\videos-formatados";
 
     @PostMapping("/remove-metadata")
     public ResponseEntity<List<String>> removeMetadata(@RequestParam("files") MultipartFile[] files) {
